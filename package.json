@@ -1,0 +1,38 @@
+{
+  "name": "deel-router",
+  "version": "1.0.0",
+  "description": "a simple (demo) router mocking express that follows a minimalism life style",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HammamSamara/deel-router.git"
+  },
+  "keywords": [
+    "router",
+    "express",
+    "node",
+    "demo"
+  ],
+  "author": "Hammam Samara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HammamSamara/deel-router/issues"
+  },
+  "homepage": "https://github.com/HammamSamara/deel-router#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "eslint": "^7.4.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
+    "supertest": "^4.0.2"
+  }
+}
