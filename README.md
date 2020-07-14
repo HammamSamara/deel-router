@@ -31,8 +31,8 @@ _**Project is not hosted on NPM since its for demo purposes.**_
 ## API
 
 ```js
-const http  = require('http')
-const Router  = require('deel-router')
+const http      = require('http')
+const appRouter = require('deel-router')
 
 const router = appRouter.router()
 router.get('/', (req, res) => {
